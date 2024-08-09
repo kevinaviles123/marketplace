@@ -33,7 +33,7 @@ header h1 {
     position: absolute;
     top: -10px;
     right: -10px;
-    background-color: red;
+    background-color: rgb(0, 255, 8);
     color: white;
     border-radius: 50%;
     padding: 5px 10px;
@@ -50,7 +50,7 @@ header h1 {
 .product-card {
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgb(0, 255, 8);
     padding: 15px;
     text-align: center;
     transform: scale(1);
@@ -81,7 +81,7 @@ header h1 {
 }
 
 .product-card button {
-    background-color: #000;
+    background-color: rgb(0, 255, 8);
     color: #fff;
     border: none;
     padding: 8px 15px;
@@ -93,7 +93,7 @@ header h1 {
 }
 
 .product-card button:hover {
-    background-color: #444;
+    background-color: #42684a;
 }
 .modal {
     display: none;
@@ -131,7 +131,7 @@ header h1 {
 
 .close-button:hover,
 .close-button:focus {
-    color: #000;
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
 }
@@ -150,7 +150,7 @@ header h1 {
 }
 
 #cart-items li button {
-    background-color: red;
+    background-color: rgb(0, 255, 8);
     color: #fff;
     border: none;
     padding: 5px 10px;

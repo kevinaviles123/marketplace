@@ -82,14 +82,14 @@ function guardarCarrito() {
 document.querySelectorAll('.product-card button').forEach((button, index) => {
     button.addEventListener('click', () => {
         const productos = [
-            { nombre: 'LD01 LOUNGE CHAIR', precio: 93160165.38 },
-            { nombre: 'LD02 LOUNGE CHAIR', precio: 8274332.47 },
-            { nombre: 'LD03 LOUNGE CHAIR', precio: 8610861.05 },
-            { nombre: 'LD04 LOUNGE CHAIR', precio: 27127620.30 },
-            { nombre: 'LD05 LOUNGE CHAIR', precio: 120000 },
-            { nombre: 'LD06 LOUNGE CHAIR', precio: 14313568.50 },
-            { nombre: 'LD07 LOUNGE CHAIR', precio: 13132131.10 },
-            { nombre: 'LD08 LOUNGE CHAIR', precio: 21783888.06 },
+            { nombre: 'courvoisier', precio: 93160165.38 },
+            { nombre: 'Remy martin', precio: 8274332.47 },
+            { nombre: 'martell', precio: 8610861.05 },
+            { nombre: 'Louis Xlll', precio: 27127620.30 },
+            { nombre: 'Carlos lll', precio: 120000 },
+            { nombre: 'REMY MARTI', precio: 14313568.50 },
+            { nombre: 'ARMAGNAC SEMPE', precio: 13132131.10 },
+            { nombre: 'Hennessy', precio: 21783888.06 },
             { nombre: 'LD09 LOUNGE CHAIR', precio: 12990000 },
             { nombre: 'LD10 LOUNGE CHAIR', precio: 5043828.90 },
             { nombre: 'LD11 LOUNGE CHAIR', precio: 41436644.81 },
