@@ -90,19 +90,19 @@ document.querySelectorAll('.product-card button').forEach((button, index) => {
             { nombre: 'REMY MARTI', precio: 14313568.50 },
             { nombre: 'ARMAGNAC SEMPE', precio: 13132131.10 },
             { nombre: 'Hennessy', precio: 21783888.06 },
-            { nombre: 'LD09 LOUNGE CHAIR', precio: 12990000 },
-            { nombre: 'LD10 LOUNGE CHAIR', precio: 5043828.90 },
-            { nombre: 'LD11 LOUNGE CHAIR', precio: 41436644.81 },
-            { nombre: 'LD12 LOUNGE CHAIR', precio: 112841236.14 },
-            { nombre: 'LD13 LOUNGE CHAIR', precio: 21463501.50 },
-            { nombre: 'LD14 LOUNGE CHAIR', precio: 21776936.76 },
-            { nombre: 'LD15 LOUNGE CHAIR', precio: 19246741.98 },
-            { nombre: 'LD16 LOUNGE CHAIR', precio: 1300000 },
-            { nombre: 'LD17 LOUNGE CHAIR', precio: 15224477 },
-            { nombre: 'LD18 LOUNGE CHAIR', precio: 4680958.60 },
-            { nombre: 'LD19 LOUNGE CHAIR', precio: 15291939.65 },
-            { nombre: 'LD20 LOUNGE CHAIR', precio: 147277500.34 },
-            { nombre: 'LD21 LOUNGE CHAIR', precio: 13685145.18 }
+            { nombre: 'REMY MARTIN', precio: 12990000 },
+            { nombre: 'Hennessy X.O', precio: 5043828.90 },
+            { nombre: 'LARSEN V.S.O.P', precio: 41436644.81 },
+            { nombre: 'XANTE LIQUEOR', precio: 112841236.14 },
+            { nombre: 'CARLOS I DESDE 1889', precio: 21463501.50 },
+            { nombre: 'RICHARD HENNESS', precio: 21776936.76 },
+            { nombre: 'COMTE JOSEPH', precio: 19246741.98 },
+            { nombre: 'COMTE JOSEPH', precio: 1300000 },
+            { nombre: 'ZACAPA', precio: 15224477 },
+            { nombre: 'Hennessy', precio: 4680958.60 },
+            { nombre: 'Mistial', precio: 15291939.65 },
+            { nombre: 'Henness', precio: 147277500.34 },
+            { nombre: 'CANNABIS ABSINTHE', precio: 13685145.18 }
             
         ];
         agregarAlCarrito(productos[index]);
