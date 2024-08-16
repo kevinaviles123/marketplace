@@ -14,9 +14,23 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
 header h1 {
     margin: 0;
     font-size: 24px;
+    flex-grow: 1;
+    text-align: center;
+    color: #218838;
 }
 
 .cart {
@@ -33,7 +47,7 @@ header h1 {
     position: absolute;
     top: -10px;
     right: -10px;
-    background-color: rgb(0, 255, 8);
+    background-color: #218838;
     color: white;
     border-radius: 50%;
     padding: 5px 10px;
@@ -42,59 +56,53 @@ header h1 {
 
 .product-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
     padding: 20px;
 }
 
 .product-card {
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgb(0, 255, 8);
-    padding: 15px;
+    padding: 20px;
+    height: fit-content;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     text-align: center;
-    transform: scale(1);
-    transition: transform 0.3s ease;
-}
-
-.product-card:hover {
-    transform: scale(1.05);
 }
 
 .product-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    max-height: 100px; 
+    width: 150px; 
+    height: 200px; 
     object-fit: cover; 
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .product-card h2 {
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px 0;
-    font-weight: normal; 
 }
 
 .product-card p {
-    font-size: 14px;
-    color: #888;
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
 }
 
 .product-card button {
-    background-color: rgb(0, 255, 8);
-    color: #fff;
+    background-color: #28a745;
+    color: white;
     border: none;
-    padding: 8px 15px;
-    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 12px;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
 }
 
 .product-card button:hover {
-    background-color: #42684a;
+    background-color: #218838;
 }
+
 .modal {
     display: none;
     position: fixed;
@@ -113,49 +121,20 @@ header h1 {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    max-width: 600px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
+    max-width: 500px;
+    border-radius: 10px;
 }
 
 .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
     color: #aaa;
+    float: right;
     font-size: 28px;
     font-weight: bold;
-    cursor: pointer;
 }
 
 .close-button:hover,
 .close-button:focus {
-    color: #000000;
+    color: #000;
     text-decoration: none;
     cursor: pointer;
-}
-
-#cart-items {
-    list-style: none;
-    padding: 0;
-}
-
-#cart-items li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-#cart-items li button {
-    background-color: rgb(0, 255, 8);
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 12px;
-    margin-left: 10px;
 }

@@ -1,107 +1,122 @@
-const products = [
+export const products = [
     {
+        id: 1,
         name: "courvoisier",
+        price: 93160165.38,
         image: "Asstes/imagenes/21 botellas.png",
-        price: 93160165.38
     },
     {
+        id: 2,
         name: "Remy martin",
-        image: "Asstes/imagenes/Botella 1.png",
-        price: 8274332.47
+        price: 8274332.47,
+        image: "Asstes/imagenes/29 botella.jpg",
     },
     {
+        id: 3,
         name: "martell",
+        price: 8610861.05,
         image: "Asstes/imagenes/Botella dos.jpg",
-        price: 8610861.05
     },
     {
+        id: 4,
         name: "Louis Xlll",
+        price: 27127620.30,
         image: "Asstes/imagenes/Botella 3.jpg",
-        price: 27127620.30
     },
     {
+        id: 5,
         name: "Carlos lll",
+        price: 120000.00,
         image: "Asstes/imagenes/Cuarta botella.jpg",
-        price: 120000.00
     },
     {
+        id: 6,
         name: "REMY MARTI",
+        price: 14313568.50,
         image: "Asstes/imagenes/Quinto botella.jpg",
-        price: 14313568.50
     },
     {
+        id: 7,
         name: "ARMAGNAC SEMPE",
+        price: 13132131.10,
         image: "Asstes/imagenes/Sexto botella.jpg",
-        price: 13132131.10
     },
     {
+        id: 8,
         name: "Hennessy",
+        price: 21783888.06,
         image: "Asstes/imagenes/Séptima botella.png",
-        price: 21783888.06
     },
     {
+        id: 9,
         name: "REMY MARTIN",
+        price: 12990000.00,
         image: "Asstes/imagenes/Octavo botella.png",
-        price: 12990000.00
     },
     {
+        id: 10,
         name: "Hennessy X.O",
+        price: 5043828.90,
         image: "Asstes/imagenes/Novena botella.jpg",
-        price: 5043828.90
     },
     {
+        id: 11,
         name: "LARSEN V.S.O.P",
+        price: 41436644.81,
         image: "Asstes/imagenes/Décima botella.jpg",
-        price: 41436644.81
     },
     {
+        id: 12,
         name: "XANTE LIQUEOR",
+        price: 112841236.14,
         image: "Asstes/imagenes/11 botellas.jpg",
-        price: 112841236.14
     },
     {
+        id: 13,
         name: "CARLOS I DESDE 1889",
+        price: 21463501.50,
         image: "Asstes/imagenes/12 botellas.jpg",
-        price: 21463501.50
     },
     {
+        id: 14,
         name: "RICHARD HENNESS",
+        price: 21776936.76,
         image: "Asstes/imagenes/13 botellas.jpg",
-        price: 21776936.76
     },
     {
+        id: 15,
         name: "COMTE JOSEPH",
+        price: 19246741.98,
         image: "Asstes/imagenes/14 botellas.gif",
-        price: 19246741.98
     },
     {
+        id: 16,
         name: "COMTE JOSEPH",
+        price: 1300000.00,
         image: "Asstes/imagenes/15 botellas.jpg",
-        price: 1300000.00
     },
     {
+        id: 17,
         name: "ZACAPA",
+        price: 15224477.00,
         image: "Asstes/imagenes/27 botellas.jpg",
-        price: 15224477.00
     },
     {
+        id: 18,
         name: "Hennessy",
+        price: 4680958.60,
         image: "Asstes/imagenes/20 botellas.png",
-        price: 4680958.60
     },
     {
+        id: 19,
         name: "Mistial",
+        price: 15291939.65,
         image: "Asstes/imagenes/26 botellas.jpg",
-        price: 15291939.65
     },
     {
-        name: "Hennessy",
+        id: 20,
+        name: "Henness",
+        price: 147277500.34,
         image: "Asstes/imagenes/23 botellas.jpeg",
-        price: 147277500.34
     },
-    {
-        name: "CANNABIS ABSINTHE",
-        image: "Asstes/imagenes/25 botellas.jpg",
-        price: 13685145.18
-    }
 ];
